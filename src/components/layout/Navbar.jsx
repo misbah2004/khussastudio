@@ -9,20 +9,20 @@ const Navbar = () => {
         {/* Logo */}
         <a href="#" className="flex items-center">
           <img
-            src="https://www.svgrepo.com/show/499962/music.svg"
-            className="h-6 mr-3 sm:h-9"
+            src="/assets/images/logo.png"
+            className="h-44"
             alt="Logo"
           />
-          <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
+          {/* <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
             Landwind
-          </span>
+          </span> */}
         </a>
 
         {/* Mobile Menu Toggle */}
         <button
           type="button"
           onClick={() => setIsOpen(!isOpen)}
-          className="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          className="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
           aria-controls="mobile-menu"
           aria-expanded={isOpen}
         >
